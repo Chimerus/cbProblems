@@ -1,0 +1,8 @@
+//Input a sting, print in reverse
+function FirstReverse(str) { 
+var result = "";
+  for(var idx = str.length; idx > -1; idx--){
+    result+=str.charAt(idx);
+  }
+  return result;      
+}
