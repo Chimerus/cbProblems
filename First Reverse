@@ -1,4 +1,4 @@
-//Input a sting, print in reverse
+//Input a string, print string in reverse
 function FirstReverse(str) { 
 var result = "";
   for(var idx = str.length; idx > -1; idx--){
