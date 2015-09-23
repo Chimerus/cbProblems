@@ -1,0 +1,8 @@
+//Takes an Int and returns the factorial
+function FirstFactorial(num) { 
+var result = 1;
+  for(var count = num; count > 1; count--){
+    result = result*(count);
+  }
+  return result;      
+}
