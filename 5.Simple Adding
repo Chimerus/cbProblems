@@ -1,0 +1,8 @@
+function SimpleAdding(num) { 
+var result = 0;
+for(idx=num;idx>0;idx--){
+  result+=idx;
+}
+  return result;      
+}
+   
